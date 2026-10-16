@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p1Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312e81" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="chartGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" rx="16" fill="url(#p1Grad)"/>
+  
+  <!-- Browser Chrome Top Bar -->
+  <rect x="0" y="0" width="600" height="42" rx="16" fill="#1e293b" />
+  <rect x="0" y="24" width="600" height="18" fill="#1e293b" />
+  <circle cx="28" cy="21" r="6" fill="#ef4444" />
+  <circle cx="48" cy="21" r="6" fill="#f59e0b" />
+  <circle cx="68" cy="21" r="6" fill="#10b981" />
+  <rect x="110" y="11" width="380" height="20" rx="6" fill="#0f172a" />
+  <text x="300" y="25" fill="#64748b" font-family="monospace" font-size="11" text-anchor="middle">https://dashboard-analytics.vercel.app</text>
+
+  <!-- Sidebar -->
+  <rect x="20" y="60" width="120" height="280" rx="10" fill="#1e293b" opacity="0.6"/>
+  <rect x="36" y="80" width="88" height="12" rx="6" fill="#6366f1" />
+  <rect x="36" y="110" width="64" height="8" rx="4" fill="#475569" />
+  <rect x="36" y="130" width="76" height="8" rx="4" fill="#475569" />
+  <rect x="36" y="150" width="56" height="8" rx="4" fill="#475569" />
+  <rect x="36" y="170" width="70" height="8" rx="4" fill="#475569" />
+
+  <!-- Metric Mini Cards -->
+  <rect x="155" y="60" width="130" height="70" rx="10" fill="url(#cardGrad)" />
+  <rect x="170" y="75" width="45" height="6" rx="3" fill="#94a3b8" />
+  <text x="170" y="105" fill="#f8fafc" font-family="sans-serif" font-weight="bold" font-size="18">Rp 48.5M</text>
+  <rect x="240" y="75" width="32" height="14" rx="4" fill="#10b981" opacity="0.3"/>
+  <text x="246" y="86" fill="#34d399" font-family="sans-serif" font-size="9" font-weight="bold">+18%</text>
+
+  <rect x="300" y="60" width="130" height="70" rx="10" fill="url(#cardGrad)" />
+  <rect x="315" y="75" width="45" height="6" rx="3" fill="#94a3b8" />
+  <text x="315" y="105" fill="#f8fafc" font-family="sans-serif" font-weight="bold" font-size="18">1,420</text>
+  <rect x="385" y="75" width="32" height="14" rx="4" fill="#10b981" opacity="0.3"/>
+  <text x="391" y="86" fill="#34d399" font-family="sans-serif" font-size="9" font-weight="bold">+24%</text>
+
+  <rect x="445" y="60" width="130" height="70" rx="10" fill="url(#cardGrad)" />
+  <rect x="460" y="75" width="45" height="6" rx="3" fill="#94a3b8" />
+  <text x="460" y="105" fill="#f8fafc" font-family="sans-serif" font-weight="bold" font-size="18">99.8%</text>
+  <rect x="530" y="75" width="32" height="14" rx="4" fill="#38bdf8" opacity="0.3"/>
+  <text x="536" y="86" fill="#38bdf8" font-family="sans-serif" font-size="9" font-weight="bold">Live</text>
+
+  <!-- Big Chart -->
+  <rect x="155" y="145" width="420" height="195" rx="10" fill="url(#cardGrad)" />
+  <path d="M 175 290 Q 240 230 300 250 T 420 180 T 545 195 L 545 310 L 175 310 Z" fill="url(#chartGrad)"/>
+  <path d="M 175 290 Q 240 230 300 250 T 420 180 T 545 195" fill="none" stroke="#818cf8" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="420" cy="180" r="5" fill="#38bdf8"/>
+  <circle cx="300" cy="250" r="4" fill="#a855f7"/>
+</svg>

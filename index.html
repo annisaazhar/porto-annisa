@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Primary Meta Tags -->
+  <title>Annisa Fadilah Azhar | Portofolio Web & Data</title>
+  <meta name="title" content="Annisa Fadilah Azhar | Portofolio Web & Data">
+  <meta name="description" content="Portofolio resmi Annisa Fadilah Azhar - Web Developer & Data Enthusiast. Menghadirkan solusi web modern, responsif, cepat, dan estetis.">
+  <meta name="keywords" content="Annisa Fadilah Azhar, Portofolio Annisa, Web Developer Indonesia, Frontend Developer, Portofolio Mahasiswa, Portofolio Vercel, HTML CSS JS">
+  <meta name="author" content="Annisa Fadilah Azhar">
+  <meta name="theme-color" content="#6366f1">
+
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://annisa-porto.vercel.app/">
+  <meta property="og:title" content="Annisa Fadilah Azhar | Portofolio Web & Data">
+  <meta property="og:description" content="Portofolio resmi Annisa Fadilah Azhar. Web developer yang berfokus pada performa tinggi, desain modern, dan pengalaman pengguna optimal.">
+  <meta property="og:image" content="assets/avatar.svg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Annisa Fadilah Azhar | Portofolio Web">
+  <meta property="twitter:description" content="Portofolio resmi Annisa Fadilah Azhar. Web Developer & Tech Enthusiast.">
+  <meta property="twitter:image" content="assets/avatar.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Ambient Background Glow Orbs -->
+  <div class="bg-glow-orb bg-glow-1"></div>
+  <div class="bg-glow-orb bg-glow-2"></div>
+
+  <!-- ==========================================================================
+       Navigation Bar
+       ========================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#beranda" class="logo" id="brand-logo">
+        <img src="assets/favicon.svg" alt="Annisa Logo" class="logo-icon">
+        <span>Annisa</span>.dev
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#beranda" class="nav-link active">Beranda</a></li>
+          <li><a href="#tentang" class="nav-link">Tentang</a></li>
+          <li><a href="#keahlian" class="nav-link">Keahlian</a></li>
+          <li><a href="#proyek" class="nav-link">Proyek</a></li>
+          <li><a href="#pengalaman" class="nav-link">Pengalaman</a></li>
+          <li><a href="#kontak" class="nav-link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Dark/Light Mode Switcher -->
+        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Ganti Tema">
+          <span id="theme-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+            </svg>
+          </span>
+        </button>
+
+        <a href="#kontak" class="btn btn-primary btn-sm" id="nav-hire-btn">Hubungi Saya</a>
+
+        <!-- Mobile Hamburger Button -->
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Buka Menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         Hero Section
+         ========================================================================== -->
+    <section class="hero" id="beranda">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            <span>Terbuka untuk Peluang & Kolaborasi</span>
+          </div>
+
+          <h1 class="hero-title">
+            Halo, Saya <br>
+            <span class="gradient-text">Annisa Fadilah Azhar</span>
+          </h1>
+
+          <div class="typewriter-wrapper">
+            <span>Saya seorang&nbsp;</span>
+            <span id="typewriter-text"></span>
+            <span class="typewriter-cursor">|</span>
+          </div>
+
+          <p class="hero-description">
+            Menggabungkan keahlian logika pemrograman, estetika desain modern, dan analisis data untuk membangun website yang cepat, responsif, dan mudah digunakan oleh semua orang.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#proyek" class="btn btn-primary" id="hero-cta-project">
+              <span>Lihat Portofolio</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            
+            <a href="#kontak" class="btn btn-secondary" id="hero-cta-contact">
+              <span>Hubungi Saya</span>
+            </a>
+
+            <a href="assets/avatar.svg" download="CV-Annisa-Fadilah-Azhar.pdf" class="btn btn-secondary" id="hero-cta-cv" title="Unduh Curriculum Vitae">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Unduh CV</span>
+            </a>
+          </div>
+
+          <!-- Social Links -->
+          <div class="social-links">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+            </a>
+
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+
+            <a href="mailto:annisafadilahazhar@gmail.com" class="social-btn" aria-label="Email">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Avatar Illustration -->
+        <div class="hero-visual">
+          <div class="avatar-wrapper">
+            <div class="avatar-inner">
+              <img src="assets/avatar.svg" alt="Annisa Fadilah Azhar" class="avatar-img">
+            </div>
+          </div>
+
+          <!-- Floating Badges -->
+          <div class="float-tag float-tag-1">
+            <span class="tag-icon">⚡</span>
+            <div>
+              <div style="font-weight: 700; color: var(--text-primary);">Web Modern</div>
+              <div style="font-size: 0.75rem; color: var(--accent-cyan);">Super Ringan & Cepat</div>
+            </div>
+          </div>
+
+          <div class="float-tag float-tag-2">
+            <span class="tag-icon">🚀</span>
+            <div>
+              <div style="font-weight: 700; color: var(--text-primary);">Siap Vercel</div>
+              <div style="font-size: 0.75rem; color: var(--accent-emerald);">100% Zero-Config</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Tentang Saya (About Section)
+         ========================================================================== -->
+    <section class="section" id="tentang">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Tentang Saya</span>
+          <h2 class="section-title">Kenali Saya Lebih Dekat</h2>
+          <p class="section-desc">Berdedikasi untuk memberikan kontribusi nyata melalui teknologi, desain yang terencana, dan pemecahan masalah.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Halo! Saya <strong>Annisa Fadilah Azhar</strong>, seorang antusias teknologi dan web developer yang senang merancang aplikasi web modern serta mengolah data menjadi informasi yang bermanfaat.
+            </p>
+            <p>
+              Fokus utama saya adalah menciptakan kode yang bersih (clean code), tampilan ramah pengguna (UI/UX), serta performa website yang sangat ringan sehingga dapat diakses dengan cepat di perangkat manapun.
+            </p>
+            <p>
+              Saya selalu bersemangat mempelajari teknologi baru, berkolaborasi dalam tim, serta mengubah ide-ide kreatif menjadi solusi digital nyata yang fungsional.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-box">
+                <span class="highlight-icon">💻</span>
+                <div>
+                  <div class="highlight-title">Kode Bersih</div>
+                  <div class="highlight-sub">Struktur rapi & mudah dirawat</div>
+                </div>
+              </div>
+
+              <div class="highlight-box">
+                <span class="highlight-icon">📱</span>
+                <div>
+                  <div class="highlight-title">100% Responsif</div>
+                  <div class="highlight-sub">Optimal di HP, tablet & laptop</div>
+                </div>
+              </div>
+
+              <div class="highlight-box">
+                <span class="highlight-icon">🎨</span>
+                <div>
+                  <div class="highlight-title">Desain Modern</div>
+                  <div class="highlight-sub">Aesthetic, rapi & berkelas</div>
+                </div>
+              </div>
+
+              <div class="highlight-box">
+                <span class="highlight-icon">⚡</span>
+                <div>
+                  <div class="highlight-title">Performa Gesit</div>
+                  <div class="highlight-sub">Loading instan & hemat kuota</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Statistics -->
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-number gradient-text">12+</div>
+              <div class="stat-label">Proyek Selesai</div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-number gradient-text">100%</div>
+              <div class="stat-label">Komitmen & Dedikasi</div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-number gradient-text">6+</div>
+              <div class="stat-label">Sertifikat & Pelatihan</div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-number gradient-text">24/7</div>
+              <div class="stat-label">Siap Belajar Hal Baru</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Keahlian (Skills Section)
+         ========================================================================== -->
+    <section class="section" id="keahlian" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Kemampuan Teknis</span>
+          <h2 class="section-title">Keahlian & Teknologi</h2>
+          <p class="section-desc">Peralatan dan teknologi yang saya gunakan sehari-hari dalam membangun proyek digital berkualitas tinggi.</p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="skills-tabs">
+          <button class="tab-btn active" data-tab="all">Semua Keahlian</button>
+          <button class="tab-btn" data-tab="frontend">Frontend & Web</button>
+          <button class="tab-btn" data-tab="tools">Tools & Platform</button>
+          <button class="tab-btn" data-tab="softskills">Soft Skills & Data</button>
+        </div>
+
+        <div class="skills-grid" id="skills-grid">
+          <!-- Frontend -->
+          <div class="skill-card" data-type="frontend">
+            <div class="skill-icon">🌐</div>
+            <div class="skill-name">HTML5 & Semantik</div>
+            <div class="skill-level">Mahir</div>
+          </div>
+
+          <div class="skill-card" data-type="frontend">
+            <div class="skill-icon">🎨</div>
+            <div class="skill-name">CSS3 & Animasi</div>
+            <div class="skill-level">Mahir</div>
+          </div>
+
+          <div class="skill-card" data-type="frontend">
+            <div class="skill-icon">⚡</div>
+            <div class="skill-name">JavaScript (ES6+)</div>
+            <div class="skill-level">Lanjutan</div>
+          </div>
+
+          <div class="skill-card" data-type="frontend">
+            <div class="skill-icon">⚛️</div>
+            <div class="skill-name">React.js</div>
+            <div class="skill-level">Menengah</div>
+          </div>
+
+          <div class="skill-card" data-type="frontend">
+            <div class="skill-icon">📱</div>
+            <div class="skill-name">Responsive Design</div>
+            <div class="skill-level">Mahir</div>
+          </div>
+
+          <div class="skill-card" data-type="frontend">
+            <div class="skill-icon">🧩</div>
+            <div class="skill-name">Bootstrap / Tailwind</div>
+            <div class="skill-level">Lanjutan</div>
+          </div>
+
+          <!-- Tools -->
+          <div class="skill-card" data-type="tools">
+            <div class="skill-icon">🐙</div>
+            <div class="skill-name">Git & GitHub</div>
+            <div class="skill-level">Lanjutan</div>
+          </div>
+
+          <div class="skill-card" data-type="tools">
+            <div class="skill-icon">▲</div>
+            <div class="skill-name">Vercel Hosting</div>
+            <div class="skill-level">Mahir</div>
+          </div>
+
+          <div class="skill-card" data-type="tools">
+            <div class="skill-icon">✒️</div>
+            <div class="skill-name">Figma (UI/UX)</div>
+            <div class="skill-level">Menengah</div>
+          </div>
+
+          <div class="skill-card" data-type="tools">
+            <div class="skill-icon">💻</div>
+            <div class="skill-name">VS Code / IDE</div>
+            <div class="skill-level">Mahir</div>
+          </div>
+
+          <!-- Softskills & Data -->
+          <div class="skill-card" data-type="softskills">
+            <div class="skill-icon">📊</div>
+            <div class="skill-name">Analisis Data</div>
+            <div class="skill-level">Menengah</div>
+          </div>
+
+          <div class="skill-card" data-type="softskills">
+            <div class="skill-icon">💡</div>
+            <div class="skill-name">Problem Solving</div>
+            <div class="skill-level">Tinggi</div>
+          </div>
+
+          <div class="skill-card" data-type="softskills">
+            <div class="skill-icon">🤝</div>
+            <div class="skill-name">Kolaborasi Tim</div>
+            <div class="skill-level">Tinggi</div>
+          </div>
+
+          <div class="skill-card" data-type="softskills">
+            <div class="skill-icon">⏱️</div>
+            <div class="skill-name">Manajemen Waktu</div>
+            <div class="skill-level">Tinggi</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Portofolio Proyek (Projects Section)
+         ========================================================================== -->
+    <section class="section" id="proyek">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Portofolio Pilihan</span>
+          <h2 class="section-title">Karya & Proyek Unggulan</h2>
+          <p class="section-desc">Berikut adalah beberapa proyek terbaik yang pernah saya kembangkan dengan fokus pada fungsionalitas dan tampilan antarmuka yang memikat.</p>
+        </div>
+
+        <!-- Project Filter Buttons -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">Semua Proyek</button>
+          <button class="filter-btn" data-filter="webapp">Web Application</button>
+          <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+          <button class="filter-btn" data-filter="productivity">Productivity Tool</button>
+          <button class="filter-btn" data-filter="data">Data & Visualizer</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card" data-category="webapp">
+            <div class="project-thumbnail">
+              <img src="assets/project-1.svg" alt="Analytics Dashboard SaaS" class="project-img">
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">HTML5 / CSS3</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Chart.js</span>
+              </div>
+              <h3 class="project-title">Analytics Dashboard SaaS</h3>
+              <p class="project-desc">
+                Dashboard analitik interaktif untuk memantau performa penjualan, metrik pengunjung secara real-time, serta grafik keuangan yang informatif.
+              </p>
+              <div class="project-actions">
+                <a href="#proyek" class="project-link" onclick="showToast('Demo langsung terbuka di preview! 🚀')">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  <span>Live Demo</span>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  <span>Kode GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card" data-category="ecommerce">
+            <div class="project-thumbnail">
+              <img src="assets/project-2.svg" alt="Luxe Fashion Store" class="project-img">
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">E-Commerce</span>
+                <span class="tag">Vanilla JS</span>
+                <span class="tag">CSS Grid</span>
+              </div>
+              <h3 class="project-title">Luxe Store - Katalog Belanja</h3>
+              <p class="project-desc">
+                Toko daring modern dengan katalog produk dinamis, filter kategori instan, keranjang belanja interaktif berbasis LocalStorage, dan layout responsif.
+              </p>
+              <div class="project-actions">
+                <a href="#proyek" class="project-link" onclick="showToast('Demo toko online siap ditinjau! 🛍️')">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  <span>Live Demo</span>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  <span>Kode GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card" data-category="productivity">
+            <div class="project-thumbnail">
+              <img src="assets/project-3.svg" alt="TaskFlow Kanban Productivity" class="project-img">
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">Productivity</span>
+                <span class="tag">Drag & Drop</span>
+                <span class="tag">Clean UI</span>
+              </div>
+              <h3 class="project-title">TaskFlow - Kanban Board</h3>
+              <p class="project-desc">
+                Aplikasi manajemen tugas tim dengan fitur drag and drop kartu tugas, penanda deadline, prioritas label warna, dan penyimpanan otomatis di browser.
+              </p>
+              <div class="project-actions">
+                <a href="#proyek" class="project-link" onclick="showToast('Buka fitur Kanban board! 📋')">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  <span>Live Demo</span>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  <span>Kode GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-card" data-category="data">
+            <div class="project-thumbnail">
+              <img src="assets/project-4.svg" alt="Financial & Data Visualizer" class="project-img">
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">Data Analysis</span>
+                <span class="tag">SVG Charts</span>
+                <span class="tag">Finance</span>
+              </div>
+              <h3 class="project-title">FinVisualizer - Perencana Keuangan</h3>
+              <p class="project-desc">
+                Alat visualisasi data anggaran dan pengeluaran pribadi dengan grafik interaktif, kalkulator alokasi tabungan, dan ekspor laporan ringkas.
+              </p>
+              <div class="project-actions">
+                <a href="#proyek" class="project-link" onclick="showToast('Visualisasi data siap diakses! 📊')">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  <span>Live Demo</span>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  <span>Kode GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Pengalaman & Pendidikan (Timeline Section)
+         ========================================================================== -->
+    <section class="section" id="pengalaman" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Perjalanan Karier & Edukasi</span>
+          <h2 class="section-title">Riwayat Pengalaman & Pendidikan</h2>
+          <p class="section-desc">Latar belakang pendidikan, kursus tersertifikasi, dan pengalaman organisasi/kerja yang telah saya lalui.</p>
+        </div>
+
+        <div class="timeline-grid">
+          <!-- Kolom Pendidikan -->
+          <div>
+            <h3 class="timeline-column-title">
+              <span>🎓</span> Pendidikan & Sertifikasi
+            </h3>
+            <div class="timeline-wrapper">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022 - Sekarang</div>
+                <h4 class="timeline-title">Pendidikan Strata 1 (S1)</h4>
+                <div class="timeline-subtitle">Universitas / Perguruan Tinggi</div>
+                <p class="timeline-desc">
+                  Mempelajari dasar ilmu komputer, struktur data, pemrograman web, rekayasa perangkat lunak, serta manajemen basis data dengan predikat memuaskan.
+                </p>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <h4 class="timeline-title">Sertifikasi Frontend Web Development</h4>
+                <div class="timeline-subtitle">Dicoding Academy / Coursera</div>
+                <p class="timeline-desc">
+                  Menyelesaikan modul fundamental web, penguasaan JavaScript modern, manipulasi DOM, konsumsi REST API, dan penerapan responsive web design.
+                </p>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2023</div>
+                <h4 class="timeline-title">Pelatihan UI/UX Design & Prototyping</h4>
+                <div class="timeline-subtitle">Google Career Certificate / Kampus</div>
+                <p class="timeline-desc">
+                  Mendalami riset pengguna (user research), pembuatan wireframe, design system, interactive prototyping pada Figma, dan usability testing.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kolom Pengalaman -->
+          <div>
+            <h3 class="timeline-column-title">
+              <span>💼</span> Pengalaman & Proyek
+            </h3>
+            <div class="timeline-wrapper">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2025 - Sekarang</div>
+                <h4 class="timeline-title">Freelance Web Developer</h4>
+                <div class="timeline-subtitle">Proyek Mandiri & Klien</div>
+                <p class="timeline-desc">
+                  Membangun website portofolio, landing page UMKM, serta optimasi kecepatan situs web dengan performa tinggi dan kompatibilitas mobile penuh.
+                </p>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <h4 class="timeline-title">Staf Divisi Teknologi Informasi</h4>
+                <div class="timeline-subtitle">Organisasi Kemahasiswaan</div>
+                <p class="timeline-desc">
+                  Mengelola publikasi digital organisasi, memelihara website acara kampus, dan berkolaborasi dalam tim publikasi serta dokumentasi.
+                </p>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2023 - 2024</div>
+                <h4 class="timeline-title">Kolaborator Open Source & Tim Proyek</h4>
+                <div class="timeline-subtitle">GitHub Community</div>
+                <p class="timeline-desc">
+                  Berpartisipasi aktif dalam pengembangan proyek open-source, mengelola repository dengan Git, dan melakukan code review bersama rekan sejawat.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Kontak (Contact Section)
+         ========================================================================== -->
+    <section class="section" id="kontak">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Mari Terhubung</span>
+          <h2 class="section-title">Hubungi Saya</h2>
+          <p class="section-desc">Punya pertanyaan, tawaran proyek, peluang magang, atau ingin berdiskusi? Jangan ragu untuk mengirimkan pesan!</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Detail Kontak Langsung -->
+          <div class="contact-info">
+            <div class="contact-card">
+              <div class="contact-icon-box">📧</div>
+              <div>
+                <div class="contact-label">Email Pribadi</div>
+                <div class="contact-value">annisafadilahazhar@gmail.com</div>
+              </div>
+            </div>
+
+            <div class="contact-card" style="cursor: pointer;" id="copy-email-btn" title="Klik untuk salin email">
+              <div class="contact-icon-box">📋</div>
+              <div>
+                <div class="contact-label">Salin Cepat</div>
+                <div class="contact-value" style="color: var(--accent-primary);">Klik di sini untuk menyalin email</div>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon-box">📍</div>
+              <div>
+                <div class="contact-label">Lokasi Domisili</div>
+                <div class="contact-value">Indonesia 🇮🇩 (Tersedia Remote)</div>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon-box">💬</div>
+              <div>
+                <div class="contact-label">Status Ketersediaan</div>
+                <div class="contact-value" style="color: var(--accent-emerald);">Menerima Proyek & Kerjasama</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Formulir Kontak Langsung (Mailto & Interactive Feedback) -->
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="name" class="form-label">Nama Lengkap *</label>
+              <input type="text" id="name" class="form-input" placeholder="Masukkan nama Anda..." required>
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="form-label">Alamat Email *</label>
+              <input type="email" id="email" class="form-input" placeholder="contoh@domain.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="subject" class="form-label">Subjek / Keperluan</label>
+              <input type="text" id="subject" class="form-input" placeholder="Tawaran Proyek, Diskusi, dll...">
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Pesan Anda *</label>
+              <textarea id="message" class="form-textarea" placeholder="Tuliskan pesan atau detail yang ingin Anda sampaikan..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;" id="submit-contact-btn">
+              <span>Kirim Pesan Sekarang</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       Footer
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <a href="#beranda" class="logo">
+        <img src="assets/favicon.svg" alt="Annisa Logo" style="width: 30px; height: 30px;">
+        <span>Annisa Fadilah Azhar</span>
+      </a>
+
+      <p class="footer-text">
+        &copy; 2026 Annisa Fadilah Azhar. Dirancang ringan & siap hosting gratis di <span class="footer-highlight">Vercel</span> ⚡
+      </p>
+
+      <div class="social-links" style="margin-top: 6px;">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn" style="width: 36px; height: 36px;" aria-label="GitHub">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+        </a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" style="width: 36px; height: 36px;" aria-label="LinkedIn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+        </a>
+        <a href="mailto:annisafadilahazhar@gmail.com" class="social-btn" style="width: 36px; height: 36px;" aria-label="Email">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top" id="back-to-top" aria-label="Kembali ke atas">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Script -->
+  <script src="js/main.js"></script>
+</body>
+</html>
