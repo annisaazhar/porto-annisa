@@ -6,25 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <!-- Primary Meta Tags -->
-  <title>Annisa Fadilah Azhar | Portofolio Web & Data</title>
-  <meta name="title" content="Annisa Fadilah Azhar | Portofolio Web & Data">
-  <meta name="description" content="Portofolio resmi Annisa Fadilah Azhar - Web Developer & Data Enthusiast. Menghadirkan solusi web modern, responsif, cepat, dan estetis.">
-  <meta name="keywords" content="Annisa Fadilah Azhar, Portofolio Annisa, Web Developer Indonesia, Frontend Developer, Portofolio Mahasiswa, Portofolio Vercel, HTML CSS JS">
+  <title>Annisa Fadilah Azhar, S.T. | Portofolio & Profil Profesional</title>
+  <meta name="title" content="Annisa Fadilah Azhar, S.T. | Portofolio & Profil Profesional">
+  <meta name="description" content="Portofolio resmi Annisa Fadilah Azhar, S.T. - Sarjana Teknik Lingkungan (Universitas Andalas, Cumlaude). Spesialis Project Support, Process Design, dan Ahli K3 Umum.">
   <meta name="author" content="Annisa Fadilah Azhar">
-  <meta name="theme-color" content="#6366f1">
+  <meta name="theme-color" content="#0d9488">
 
-  <!-- Open Graph / Facebook / WhatsApp -->
+  <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://annisa-porto.vercel.app/">
-  <meta property="og:title" content="Annisa Fadilah Azhar | Portofolio Web & Data">
-  <meta property="og:description" content="Portofolio resmi Annisa Fadilah Azhar. Web developer yang berfokus pada performa tinggi, desain modern, dan pengalaman pengguna optimal.">
-  <meta property="og:image" content="assets/avatar.svg">
-
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:title" content="Annisa Fadilah Azhar | Portofolio Web">
-  <meta property="twitter:description" content="Portofolio resmi Annisa Fadilah Azhar. Web Developer & Tech Enthusiast.">
-  <meta property="twitter:image" content="assets/avatar.svg">
+  <meta property="og:title" content="Annisa Fadilah Azhar, S.T. | Portofolio & Profil Profesional">
+  <meta property="og:description" content="Sarjana Teknik Lingkungan Universitas Andalas (Cumlaude). Berpengalaman di Project Support Air Bersih Jakarta & Certified Ahli K3 Umum.">
+  <meta property="og:image" content="assets/annisa-profile.jpg">
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
@@ -34,48 +26,49 @@
 </head>
 <body>
 
-  <!-- Ambient Background Glow Orbs -->
-  <div class="bg-glow-orb bg-glow-1"></div>
-  <div class="bg-glow-orb bg-glow-2"></div>
-
   <!-- ==========================================================================
        Navigation Bar
        ========================================================================== -->
   <header class="navbar" id="navbar">
     <div class="container nav-container">
-      <a href="#beranda" class="logo" id="brand-logo">
-        <img src="assets/favicon.svg" alt="Annisa Logo" class="logo-icon">
-        <span>Annisa</span>.dev
+      <a href="#beranda" class="logo">
+        <img src="assets/favicon.svg" alt="Logo" class="logo-icon">
+        <span>Annisa</span> Fadilah Azhar
       </a>
 
       <nav>
         <ul class="nav-links" id="nav-links">
           <li><a href="#beranda" class="nav-link active">Beranda</a></li>
-          <li><a href="#tentang" class="nav-link">Tentang</a></li>
-          <li><a href="#keahlian" class="nav-link">Keahlian</a></li>
-          <li><a href="#proyek" class="nav-link">Proyek</a></li>
           <li><a href="#pengalaman" class="nav-link">Pengalaman</a></li>
+          <li><a href="#pendidikan" class="nav-link">Pendidikan</a></li>
+          <li><a href="#sertifikasi" class="nav-link">Sertifikasi</a></li>
+          <li><a href="#keahlian" class="nav-link">Keahlian</a></li>
           <li><a href="#kontak" class="nav-link">Kontak</a></li>
         </ul>
       </nav>
 
       <div class="nav-actions">
-        <!-- Dark/Light Mode Switcher -->
+        <!-- Dark/Light Mode Button -->
         <button class="theme-toggle-btn" id="theme-toggle" aria-label="Ganti Tema">
           <span id="theme-icon">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <circle cx="12" cy="12" r="5"></circle>
-              <line x1="12" y1="1" x2="12" y2="3"></line>
-              <line x1="12" y1="21" x2="12" y2="23"></line>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
             </svg>
           </span>
         </button>
 
-        <a href="#kontak" class="btn btn-primary btn-sm" id="nav-hire-btn">Hubungi Saya</a>
+        <a href="assets/CV-Annisa-Fadilah-Azhar.pdf" download="CV-Annisa-Fadilah-Azhar.pdf" class="btn btn-primary btn-sm">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Unduh CV</span>
+        </a>
 
-        <!-- Mobile Hamburger Button -->
+        <!-- Mobile Menu Toggle -->
         <button class="mobile-toggle" id="mobile-toggle" aria-label="Buka Menu">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <line x1="3" y1="12" x2="21" y2="12"></line>
             <line x1="3" y1="6" x2="21" y2="6"></line>
             <line x1="3" y1="18" x2="21" y2="18"></line>
@@ -90,190 +83,211 @@
          Hero Section
          ========================================================================== -->
     <section class="hero" id="beranda">
-      <div class="container hero-grid">
-        <div class="hero-content">
-          <div class="hero-badge">
-            <span class="pulse-dot"></span>
-            <span>Terbuka untuk Peluang & Kolaborasi</span>
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Text Content -->
+          <div>
+            <div class="hero-badge-pill">
+              <span class="pulse-dot"></span>
+              <span>Terbuka untuk Peluang Karier & Kolaborasi</span>
+            </div>
+
+            <h1 class="hero-title">
+              Annisa Fadilah Azhar, S.T.
+            </h1>
+
+            <div class="hero-subtitle">
+              Environmental Engineering Graduate &bull; Project Support & Process Design &bull; Certified Ahli K3 Umum
+            </div>
+
+            <!-- Meta info bar -->
+            <div class="hero-meta">
+              <span class="hero-meta-item">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                Jakarta Timur, Indonesia
+              </span>
+              <span class="hero-meta-item">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                081275160019
+              </span>
+              <span class="hero-meta-item">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                azhar.annisafad@gmail.com
+              </span>
+            </div>
+
+            <!-- Summary paragraph -->
+            <p class="hero-summary">
+              Lulusan <strong>Teknik Lingkungan Universitas Andalas (IPK 3.56 - Cum Laude)</strong> dengan pengalaman profesional di bidang <strong>Project Support</strong> pada PT Bina Lestari Lingkungan Sejahtera (Management Consultant Air Bersih Jakarta / SPAM Jatiluhur Hilir) dan sebelumnya sebagai <strong>Process Engineer</strong> di PT Malaya Artha Nusa. Berpengalaman dalam pengelolaan dokumen proyek tender, konstruksi, hingga serah terima (BAST), verifikasi teknis, pengolahan air bersih & air limbah, serta kepatuhan lingkungan. Memiliki sertifikasi resmi <strong>Ahli K3 Umum (AK3U Kemnaker)</strong> dengan kemampuan komunikasi, analisis, dan kedisiplinan yang tinggi.
+            </p>
+
+            <!-- Action Buttons -->
+            <div class="hero-actions">
+              <a href="https://wa.me/6281275160019?text=Halo%20Annisa%2C%20saya%20melihat%20portofolio%20dan%20CV%20Anda" target="_blank" rel="noopener noreferrer" class="btn btn-success">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/>
+                </svg>
+                <span>WhatsApp Saya</span>
+              </a>
+
+              <a href="assets/CV-Annisa-Fadilah-Azhar.pdf" download="CV-Annisa-Fadilah-Azhar.pdf" class="btn btn-primary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                <span>Unduh CV Resmi (PDF)</span>
+              </a>
+
+              <a href="https://linkedin.com/in/annisafadilahazhar" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+
+              <a href="https://bit.ly/3VqszsC" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" title="Buka Google Drive Sertifikat Resmi">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg>
+                <span>Dokumen Sertifikat</span>
+              </a>
+            </div>
           </div>
 
-          <h1 class="hero-title">
-            Halo, Saya <br>
-            <span class="gradient-text">Annisa Fadilah Azhar</span>
-          </h1>
-
-          <div class="typewriter-wrapper">
-            <span>Saya seorang&nbsp;</span>
-            <span id="typewriter-text"></span>
-            <span class="typewriter-cursor">|</span>
-          </div>
-
-          <p class="hero-description">
-            Menggabungkan keahlian logika pemrograman, estetika desain modern, dan analisis data untuk membangun website yang cepat, responsif, dan mudah digunakan oleh semua orang.
-          </p>
-
-          <div class="hero-buttons">
-            <a href="#proyek" class="btn btn-primary" id="hero-cta-project">
-              <span>Lihat Portofolio</span>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
-            </a>
-            
-            <a href="#kontak" class="btn btn-secondary" id="hero-cta-contact">
-              <span>Hubungi Saya</span>
-            </a>
-
-            <a href="assets/avatar.svg" download="CV-Annisa-Fadilah-Azhar.pdf" class="btn btn-secondary" id="hero-cta-cv" title="Unduh Curriculum Vitae">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                <polyline points="7 10 12 15 17 10"></polyline>
-                <line x1="12" y1="15" x2="12" y2="3"></line>
-              </svg>
-              <span>Unduh CV</span>
-            </a>
-          </div>
-
-          <!-- Social Links -->
-          <div class="social-links">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-              </svg>
-            </a>
-
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                <rect x="2" y="9" width="4" height="12"></rect>
-                <circle cx="4" cy="4" r="2"></circle>
-              </svg>
-            </a>
-
-            <a href="mailto:annisafadilahazhar@gmail.com" class="social-btn" aria-label="Email">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                <polyline points="22,6 12,13 2,6"></polyline>
-              </svg>
-            </a>
-
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-              </svg>
-            </a>
+          <!-- Photo Card -->
+          <div class="hero-photo-wrapper">
+            <div class="hero-photo-card">
+              <img src="assets/annisa-profile.jpg" alt="Annisa Fadilah Azhar, S.T." class="hero-photo-img" onerror="this.src='assets/avatar.svg'">
+            </div>
+            <div class="hero-photo-caption">Annisa Fadilah Azhar, S.T.</div>
+            <div style="font-size: 0.775rem; color: var(--text-muted);">Teknik Lingkungan &bull; UNAND</div>
           </div>
         </div>
 
-        <!-- Hero Avatar Illustration -->
-        <div class="hero-visual">
-          <div class="avatar-wrapper">
-            <div class="avatar-inner">
-              <img src="assets/avatar.svg" alt="Annisa Fadilah Azhar" class="avatar-img">
-            </div>
+        <!-- Metric Highlight Bar -->
+        <div class="metrics-bar">
+          <div class="metric-item">
+            <div class="metric-num">3.56 / 4.00</div>
+            <div class="metric-label">IPK Cum Laude (S1)</div>
           </div>
-
-          <!-- Floating Badges -->
-          <div class="float-tag float-tag-1">
-            <span class="tag-icon">⚡</span>
-            <div>
-              <div style="font-weight: 700; color: var(--text-primary);">Web Modern</div>
-              <div style="font-size: 0.75rem; color: var(--accent-cyan);">Super Ringan & Cepat</div>
-            </div>
+          <div class="metric-item">
+            <div class="metric-num">Air Bersih JKT</div>
+            <div class="metric-label">Project Support SPAM</div>
           </div>
-
-          <div class="float-tag float-tag-2">
-            <span class="tag-icon">🚀</span>
-            <div>
-              <div style="font-weight: 700; color: var(--text-primary);">Siap Vercel</div>
-              <div style="font-size: 0.75rem; color: var(--accent-emerald);">100% Zero-Config</div>
-            </div>
+          <div class="metric-item">
+            <div class="metric-num">Ahli K3 Umum</div>
+            <div class="metric-label">Kemnaker RI Certified</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-num">9+ Pelatihan</div>
+            <div class="metric-label">ISO, HSE & Lingkungan</div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- ==========================================================================
-         Tentang Saya (About Section)
+         Pengalaman Kerja (Work Experience)
          ========================================================================== -->
-    <section class="section" id="tentang">
+    <section class="section" id="pengalaman">
       <div class="container">
         <div class="section-header">
-          <span class="badge">Tentang Saya</span>
-          <h2 class="section-title">Kenali Saya Lebih Dekat</h2>
-          <p class="section-desc">Berdedikasi untuk memberikan kontribusi nyata melalui teknologi, desain yang terencana, dan pemecahan masalah.</p>
+          <span class="badge">Karier Profesional</span>
+          <h2 class="section-title">Pengalaman Kerja</h2>
+          <p class="section-desc">Rekam jejak profesional dalam pengawasan proyek infrastruktur air bersih, rekayasa proses, dan manajemen dokumen teknis.</p>
         </div>
 
-        <div class="about-grid">
-          <div class="about-text">
-            <p>
-              Halo! Saya <strong>Annisa Fadilah Azhar</strong>, seorang antusias teknologi dan web developer yang senang merancang aplikasi web modern serta mengolah data menjadi informasi yang bermanfaat.
-            </p>
-            <p>
-              Fokus utama saya adalah menciptakan kode yang bersih (clean code), tampilan ramah pengguna (UI/UX), serta performa website yang sangat ringan sehingga dapat diakses dengan cepat di perangkat manapun.
-            </p>
-            <p>
-              Saya selalu bersemangat mempelajari teknologi baru, berkolaborasi dalam tim, serta mengubah ide-ide kreatif menjadi solusi digital nyata yang fungsional.
-            </p>
-
-            <div class="about-highlights">
-              <div class="highlight-box">
-                <span class="highlight-icon">💻</span>
-                <div>
-                  <div class="highlight-title">Kode Bersih</div>
-                  <div class="highlight-sub">Struktur rapi & mudah dirawat</div>
-                </div>
+        <div class="experience-list">
+          <!-- PT Bina Lestari Lingkungan Sejahtera -->
+          <div class="exp-card">
+            <div class="exp-header">
+              <div>
+                <h3 class="exp-role">Project Support</h3>
+                <div class="exp-company">PT Bina Lestari Lingkungan Sejahtera (Management Consultant Air Bersih Jakarta) &bull; Jakarta Timur</div>
               </div>
-
-              <div class="highlight-box">
-                <span class="highlight-icon">📱</span>
-                <div>
-                  <div class="highlight-title">100% Responsif</div>
-                  <div class="highlight-sub">Optimal di HP, tablet & laptop</div>
-                </div>
-              </div>
-
-              <div class="highlight-box">
-                <span class="highlight-icon">🎨</span>
-                <div>
-                  <div class="highlight-title">Desain Modern</div>
-                  <div class="highlight-sub">Aesthetic, rapi & berkelas</div>
-                </div>
-              </div>
-
-              <div class="highlight-box">
-                <span class="highlight-icon">⚡</span>
-                <div>
-                  <div class="highlight-title">Performa Gesit</div>
-                  <div class="highlight-sub">Loading instan & hemat kuota</div>
-                </div>
-              </div>
+              <span class="exp-badge current">Jun 2026 – Sekarang</span>
             </div>
+            <ul class="exp-points">
+              <li>Memantau dan memelihara dokumentasi proyek <strong>Air Bersih Jakarta (ABJ)</strong>, termasuk verifikasi keaslian dokumen fisik dan ketersediaan salinan digital (*soft-copy*) pada Tigres (Sharing Folder).</li>
+              <li>Mengelola dokumentasi proyek <strong>SPAM Jatiluhur Hilir</strong> dari tahap tender, fase konstruksi, hingga penyerahan proyek (*Project Handover* / Berita Acara Serah Terima/BAST), termasuk seluruh kelengkapan administrasi.</li>
+              <li>Mengatur, memelihara, dan menindaklanjuti arsip dokumen proyek sepanjang siklus hidup proyek, mulai dari <em>Pre-Construction Meeting (PCM)</em> hingga <em>Mutual Check 100 (MC 100)</em> pada SPAM Jatiluhur Hilir.</li>
+              <li>Berkolaborasi intensif dengan <strong>Tim TaskForce</strong> untuk mempercepat validasi dokumen dan memastikan kesiapan dokumentasi ABJ sebelum diserahkan secara resmi ke <strong>PAM Jaya</strong>.</li>
+              <li>Berkoordinasi lintas tim data administrasi dan teknis (Project Leader, Project Engineer, dan Project Control) dalam mengumpulkan, memperbarui, dan menyelesaikan dokumen proyek yang berstatus *outstanding*.</li>
+              <li>Menyusun laporan koordinasi dokumentasi berkala antara tim Management Consultant (MK) dan kontraktor pelaksana.</li>
+            </ul>
           </div>
 
-          <!-- Quick Statistics -->
-          <div class="stats-grid">
-            <div class="stat-card">
-              <div class="stat-number gradient-text">12+</div>
-              <div class="stat-label">Proyek Selesai</div>
+          <!-- PT Malaya Artha Nusa -->
+          <div class="exp-card">
+            <div class="exp-header">
+              <div>
+                <h3 class="exp-role">Process Engineer</h3>
+                <div class="exp-company">PT Malaya Artha Nusa &bull; Kabupaten Tangerang</div>
+              </div>
+              <span class="exp-badge">Jun 2025 – Des 2025</span>
+            </div>
+            <ul class="exp-points">
+              <li>Merancang tangki, *vessels*, dan reaktor proses kimia/lingkungan sesuai dengan spesifikasi dan kebutuhan pelanggan (*customer requirements*).</li>
+              <li>Melakukan kalkulasi teknik untuk menentukan tekanan desain (*design pressure*) dan tekanan operasi (*operating pressure*) pada tangki, *vessels*, dan reaktor.</li>
+              <li>Mengevaluasi performa sistem agitator/pengaduk dan menerapkan peningkatan teknis sesuai standar desain dan operasional.</li>
+              <li>Mengembangkan *piping layout* dan menyusun gambar isometrik (*isometric drawings*) sistem perpipaan.</li>
+            </ul>
+          </div>
+
+          <!-- Intern Nanggalo -->
+          <div class="exp-card">
+            <div class="exp-header">
+              <div>
+                <h3 class="exp-role">Staff Administrasi & Kesehatan Lingkungan (Magang)</h3>
+                <div class="exp-company">Instalasi Pengolahan Lumpur Tinja (IPLT) Nanggalo Kota Padang</div>
+              </div>
+              <span class="exp-badge">2022</span>
+            </div>
+            <ul class="exp-points">
+              <li>Menguji kontaminan efluen air limbah dan mengevaluasi kepatuhan unit pengolahan terhadap baku mutu lingkungan hidup.</li>
+              <li>Mengevaluasi desain efisiensi unit pengolahan lumpur tinja mulai dari *bar screen* hingga kolam maturasi (*maturation pond*).</li>
+              <li>Menyusun draf SOP (*Standard Operating Procedure*) operasional pembuangan dan penanganan lumpur tinja.</li>
+              <li>Menyerahkan laporan komprehensif berisi rekomendasi teknis perbaikan operasional fasilitas IPLT.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Asisten Dosen & Laboratorium -->
+        <div style="margin-top: 40px;">
+          <h3 style="font-size: 1.35rem; font-weight: 700; margin-bottom: 8px;">Pengalaman Asisten Dosen & Laboratorium (2021 – 2023)</h3>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 20px;">Membimbing mahasiswa, menyusun materi laboratorium, serta melatih aplikasi rekayasa lingkungan (AutoCAD, ArcGIS, EPANET).</p>
+
+          <div class="academic-grid">
+            <div class="academic-card">
+              <div class="academic-title">Asisten Laboratorium Mikrobiologi Lingkungan</div>
+              <div class="academic-period">2021 – 2023</div>
+              <div class="academic-desc">Membimbing 100+ mahasiswa selama 3 semester dalam 5 modul utama, persiapan reagen, proses sterilisasi, serta panduan sampling dan pengujian analitis.</div>
             </div>
 
-            <div class="stat-card">
-              <div class="stat-number gradient-text">100%</div>
-              <div class="stat-label">Komitmen & Dedikasi</div>
+            <div class="academic-card">
+              <div class="academic-title">Asisten Dosen Penyaluran Air Buangan & Drainase</div>
+              <div class="academic-period">2022 – 2023</div>
+              <div class="academic-desc">Melatih mahasiswa menggunakan AutoCAD dan ArcGIS serta membimbing lebih dari 100 mahasiswa merancang sistem jaringan drainase dan air buangan yang ramah lingkungan.</div>
             </div>
 
-            <div class="stat-card">
-              <div class="stat-number gradient-text">6+</div>
-              <div class="stat-label">Sertifikat & Pelatihan</div>
+            <div class="academic-card">
+              <div class="academic-title">Asisten Dosen Rekayasa Penyediaan Air Minum</div>
+              <div class="academic-period">2022 – 2023</div>
+              <div class="academic-desc">Mementori kelompok mahasiswa selama 6 bulan, memberikan pelatihan software EPANET untuk analisis hidrolika aliran air, serta mengevaluasi laporan desain.</div>
             </div>
 
-            <div class="stat-card">
-              <div class="stat-number gradient-text">24/7</div>
-              <div class="stat-label">Siap Belajar Hal Baru</div>
+            <div class="academic-card">
+              <div class="academic-title">Asisten Dosen Perancangan Bangunan IPAL (Air Buangan)</div>
+              <div class="academic-period">2023</div>
+              <div class="academic-desc">Mensupervisi kelompok mahasiswa dalam mendesain unit pengolahan air limbah terpadu serta menguji pemahaman mahasiswa melalui presentasi desain teknis.</div>
+            </div>
+
+            <div class="academic-card">
+              <div class="academic-title">Asisten Dosen Perancangan Bangunan IPA (Air Minum)</div>
+              <div class="academic-period">2023</div>
+              <div class="academic-desc">Membimbing seleksi kriteria desain unit pengolahan air minum dan mengevaluasi kalkulasi teknis mulai dari intake, sedimentasi, filtrasi, hingga reservoir.</div>
             </div>
           </div>
         </div>
@@ -281,336 +295,199 @@
     </section>
 
     <!-- ==========================================================================
-         Keahlian (Skills Section)
+         Pendidikan (Education Section)
+         ========================================================================== -->
+    <section class="section" id="pendidikan" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Riwayat Akademik</span>
+          <h2 class="section-title">Pendidikan Formal & Riset</h2>
+          <p class="section-desc">Pondasi keilmuan teknik lingkungan dan kontribusi riset ilmiah di bidang pengolahan air & mikrobiologi.</p>
+        </div>
+
+        <div class="edu-card">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 8px;">
+            <div>
+              <h3 class="edu-title">Universitas Andalas – Padang, Indonesia</h3>
+              <div style="font-size: 1.05rem; font-weight: 600; color: var(--accent-primary); margin-top: 2px;">
+                Sarjana Teknik Lingkungan (S.T.)
+              </div>
+            </div>
+            <span class="cumlaude-tag">🏆 Lulus Cum Laude (IPK: 3.56 / 4.00)</span>
+          </div>
+
+          <div class="edu-meta">
+            <span>📅 Periode: 2019 – 2023</span>
+            <span>&bull;</span>
+            <span>🔬 Fokus: Pengolahan Air & Mikrobiologi Lingkungan</span>
+            <span>&bull;</span>
+            <span>🏅 Praktikan Terbaik Lab Kimia Lingkungan (2020)</span>
+          </div>
+
+          <!-- Tugas Akhir -->
+          <div class="edu-final-project">
+            <div class="edu-final-title">Tugas Akhir (Skripsi):</div>
+            <div>
+              <em>&ldquo;Monitoring COD/N-Ammonium Ratio in Artificial Wastewater in Partial Nitrification Anammox (PN/A) System and Struvite Precipitation&rdquo;</em>
+            </div>
+          </div>
+
+          <!-- Publikasi PKM-RE -->
+          <div style="margin-top: 18px;">
+            <div style="font-weight: 700; font-size: 0.95rem; margin-bottom: 6px; color: var(--text-primary);">
+              Karya Tulis Ilmiah & Program Kreativitas Mahasiswa (PKM-RE):
+            </div>
+            <ul style="padding-left: 20px; font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">
+              <li><em>&ldquo;Recovery of Ammonium and Phosphate from Tofu Wastewater as Fertilizer Using Partial Nitrification Anammox and Struvite Precipitation&rdquo;</em> (2023)</li>
+              <li><em>&ldquo;Nitrogen Removal Performance Using Anammox Bacteria from Talago Koto Baru in Membrane Bioreactor (MBR)&rdquo;</em> (2022)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Sertifikasi & Pelatihan (Certifications Section)
+         ========================================================================== -->
+    <section class="section" id="sertifikasi">
+      <div class="container">
+        <div class="section-header">
+          <div style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 12px;">
+            <div>
+              <span class="badge">Kredensial Profesional</span>
+              <h2 class="section-title">Sertifikasi & Pelatihan K3 / ISO</h2>
+              <p class="section-desc">Sertifikasi kompetensi resmi Kementerian Ketenagakerjaan RI dan pelatihan standar internasional.</p>
+            </div>
+            <a href="https://bit.ly/3VqszsC" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              <span>Buka Google Drive Sertifikat</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="cert-grid">
+          <div class="cert-card">
+            <div class="cert-icon">🛡️</div>
+            <div>
+              <div class="cert-name">Ahli Keselamatan dan Kesehatan Kerja Umum (AK3U)</div>
+              <div class="cert-issuer">Kementerian Ketenagakerjaan RI (Kemnaker) &bull; [2025]</div>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">📋</div>
+            <div>
+              <div class="cert-name">ISO 9001:2015 Quality Management System</div>
+              <div class="cert-issuer">PT Garuda Systrain Interindo &bull; [2025]</div>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">🌿</div>
+            <div>
+              <div class="cert-name">ISO 14001:2015 Environmental Management System</div>
+              <div class="cert-issuer">PT Garuda Systrain Interindo &bull; [2025]</div>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">⚠️</div>
+            <div>
+              <div class="cert-name">Environmental Risk Identification and Assessment</div>
+              <div class="cert-issuer">PT Garuda Systrain Interindo &bull; [2025]</div>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">☢️</div>
+            <div>
+              <div class="cert-name">Hazardous Materials Management (Pengelolaan B3)</div>
+              <div class="cert-issuer">PT Garuda Systrain Interindo &bull; [2025]</div>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">♻️</div>
+            <div>
+              <div class="cert-name">Waste Management (Pengelolaan Limbah)</div>
+              <div class="cert-issuer">PT Garuda Systrain Interindo &bull; [2025]</div>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">🧯</div>
+            <div>
+              <div class="cert-name">Basic Fire Fighting Training (Penanggulangan Kebakaran)</div>
+              <div class="cert-issuer">PT Garuda Systrain Interindo &bull; [2025]</div>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">🩹</div>
+            <div>
+              <div class="cert-name">Basic First Aid Training (P3K Dasar)</div>
+              <div class="cert-issuer">PT Garuda Systrain Interindo &bull; [2025]</div>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">🚨</div>
+            <div>
+              <div class="cert-name">Emergency Response Plan Training (Tanggap Darurat)</div>
+              <div class="cert-issuer">PT Garuda Systrain Interindo &bull; [2025]</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Keahlian & Kemampuan Teknis (Skills Section)
          ========================================================================== -->
     <section class="section" id="keahlian" style="background: var(--bg-secondary);">
       <div class="container">
         <div class="section-header">
-          <span class="badge">Kemampuan Teknis</span>
-          <h2 class="section-title">Keahlian & Teknologi</h2>
-          <p class="section-desc">Peralatan dan teknologi yang saya gunakan sehari-hari dalam membangun proyek digital berkualitas tinggi.</p>
+          <span class="badge">Kemampuan & Kompetensi</span>
+          <h2 class="section-title">Keahlian & Perangkat Lunak</h2>
+          <p class="section-desc">Kombinasi keahlian teknis rekayasa lingkungan, audit K3, penguasaan software engineering, dan kepemimpinan.</p>
         </div>
 
-        <!-- Filter Tabs -->
-        <div class="skills-tabs">
-          <button class="tab-btn active" data-tab="all">Semua Keahlian</button>
-          <button class="tab-btn" data-tab="frontend">Frontend & Web</button>
-          <button class="tab-btn" data-tab="tools">Tools & Platform</button>
-          <button class="tab-btn" data-tab="softskills">Soft Skills & Data</button>
-        </div>
-
-        <div class="skills-grid" id="skills-grid">
-          <!-- Frontend -->
-          <div class="skill-card" data-type="frontend">
-            <div class="skill-icon">🌐</div>
-            <div class="skill-name">HTML5 & Semantik</div>
-            <div class="skill-level">Mahir</div>
-          </div>
-
-          <div class="skill-card" data-type="frontend">
-            <div class="skill-icon">🎨</div>
-            <div class="skill-name">CSS3 & Animasi</div>
-            <div class="skill-level">Mahir</div>
-          </div>
-
-          <div class="skill-card" data-type="frontend">
-            <div class="skill-icon">⚡</div>
-            <div class="skill-name">JavaScript (ES6+)</div>
-            <div class="skill-level">Lanjutan</div>
-          </div>
-
-          <div class="skill-card" data-type="frontend">
-            <div class="skill-icon">⚛️</div>
-            <div class="skill-name">React.js</div>
-            <div class="skill-level">Menengah</div>
-          </div>
-
-          <div class="skill-card" data-type="frontend">
-            <div class="skill-icon">📱</div>
-            <div class="skill-name">Responsive Design</div>
-            <div class="skill-level">Mahir</div>
-          </div>
-
-          <div class="skill-card" data-type="frontend">
-            <div class="skill-icon">🧩</div>
-            <div class="skill-name">Bootstrap / Tailwind</div>
-            <div class="skill-level">Lanjutan</div>
-          </div>
-
-          <!-- Tools -->
-          <div class="skill-card" data-type="tools">
-            <div class="skill-icon">🐙</div>
-            <div class="skill-name">Git & GitHub</div>
-            <div class="skill-level">Lanjutan</div>
-          </div>
-
-          <div class="skill-card" data-type="tools">
-            <div class="skill-icon">▲</div>
-            <div class="skill-name">Vercel Hosting</div>
-            <div class="skill-level">Mahir</div>
-          </div>
-
-          <div class="skill-card" data-type="tools">
-            <div class="skill-icon">✒️</div>
-            <div class="skill-name">Figma (UI/UX)</div>
-            <div class="skill-level">Menengah</div>
-          </div>
-
-          <div class="skill-card" data-type="tools">
-            <div class="skill-icon">💻</div>
-            <div class="skill-name">VS Code / IDE</div>
-            <div class="skill-level">Mahir</div>
-          </div>
-
-          <!-- Softskills & Data -->
-          <div class="skill-card" data-type="softskills">
-            <div class="skill-icon">📊</div>
-            <div class="skill-name">Analisis Data</div>
-            <div class="skill-level">Menengah</div>
-          </div>
-
-          <div class="skill-card" data-type="softskills">
-            <div class="skill-icon">💡</div>
-            <div class="skill-name">Problem Solving</div>
-            <div class="skill-level">Tinggi</div>
-          </div>
-
-          <div class="skill-card" data-type="softskills">
-            <div class="skill-icon">🤝</div>
-            <div class="skill-name">Kolaborasi Tim</div>
-            <div class="skill-level">Tinggi</div>
-          </div>
-
-          <div class="skill-card" data-type="softskills">
-            <div class="skill-icon">⏱️</div>
-            <div class="skill-name">Manajemen Waktu</div>
-            <div class="skill-level">Tinggi</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ==========================================================================
-         Portofolio Proyek (Projects Section)
-         ========================================================================== -->
-    <section class="section" id="proyek">
-      <div class="container">
-        <div class="section-header">
-          <span class="badge">Portofolio Pilihan</span>
-          <h2 class="section-title">Karya & Proyek Unggulan</h2>
-          <p class="section-desc">Berikut adalah beberapa proyek terbaik yang pernah saya kembangkan dengan fokus pada fungsionalitas dan tampilan antarmuka yang memikat.</p>
-        </div>
-
-        <!-- Project Filter Buttons -->
-        <div class="project-filters">
-          <button class="filter-btn active" data-filter="all">Semua Proyek</button>
-          <button class="filter-btn" data-filter="webapp">Web Application</button>
-          <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
-          <button class="filter-btn" data-filter="productivity">Productivity Tool</button>
-          <button class="filter-btn" data-filter="data">Data & Visualizer</button>
-        </div>
-
-        <div class="projects-grid">
-          <!-- Project 1 -->
-          <div class="project-card" data-category="webapp">
-            <div class="project-thumbnail">
-              <img src="assets/project-1.svg" alt="Analytics Dashboard SaaS" class="project-img">
-            </div>
-            <div class="project-body">
-              <div class="project-tags">
-                <span class="tag">HTML5 / CSS3</span>
-                <span class="tag">JavaScript</span>
-                <span class="tag">Chart.js</span>
-              </div>
-              <h3 class="project-title">Analytics Dashboard SaaS</h3>
-              <p class="project-desc">
-                Dashboard analitik interaktif untuk memantau performa penjualan, metrik pengunjung secara real-time, serta grafik keuangan yang informatif.
-              </p>
-              <div class="project-actions">
-                <a href="#proyek" class="project-link" onclick="showToast('Demo langsung terbuka di preview! 🚀')">
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-                  <span>Live Demo</span>
-                </a>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                  <span>Kode GitHub</span>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 2 -->
-          <div class="project-card" data-category="ecommerce">
-            <div class="project-thumbnail">
-              <img src="assets/project-2.svg" alt="Luxe Fashion Store" class="project-img">
-            </div>
-            <div class="project-body">
-              <div class="project-tags">
-                <span class="tag">E-Commerce</span>
-                <span class="tag">Vanilla JS</span>
-                <span class="tag">CSS Grid</span>
-              </div>
-              <h3 class="project-title">Luxe Store - Katalog Belanja</h3>
-              <p class="project-desc">
-                Toko daring modern dengan katalog produk dinamis, filter kategori instan, keranjang belanja interaktif berbasis LocalStorage, dan layout responsif.
-              </p>
-              <div class="project-actions">
-                <a href="#proyek" class="project-link" onclick="showToast('Demo toko online siap ditinjau! 🛍️')">
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-                  <span>Live Demo</span>
-                </a>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                  <span>Kode GitHub</span>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 3 -->
-          <div class="project-card" data-category="productivity">
-            <div class="project-thumbnail">
-              <img src="assets/project-3.svg" alt="TaskFlow Kanban Productivity" class="project-img">
-            </div>
-            <div class="project-body">
-              <div class="project-tags">
-                <span class="tag">Productivity</span>
-                <span class="tag">Drag & Drop</span>
-                <span class="tag">Clean UI</span>
-              </div>
-              <h3 class="project-title">TaskFlow - Kanban Board</h3>
-              <p class="project-desc">
-                Aplikasi manajemen tugas tim dengan fitur drag and drop kartu tugas, penanda deadline, prioritas label warna, dan penyimpanan otomatis di browser.
-              </p>
-              <div class="project-actions">
-                <a href="#proyek" class="project-link" onclick="showToast('Buka fitur Kanban board! 📋')">
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-                  <span>Live Demo</span>
-                </a>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                  <span>Kode GitHub</span>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 4 -->
-          <div class="project-card" data-category="data">
-            <div class="project-thumbnail">
-              <img src="assets/project-4.svg" alt="Financial & Data Visualizer" class="project-img">
-            </div>
-            <div class="project-body">
-              <div class="project-tags">
-                <span class="tag">Data Analysis</span>
-                <span class="tag">SVG Charts</span>
-                <span class="tag">Finance</span>
-              </div>
-              <h3 class="project-title">FinVisualizer - Perencana Keuangan</h3>
-              <p class="project-desc">
-                Alat visualisasi data anggaran dan pengeluaran pribadi dengan grafik interaktif, kalkulator alokasi tabungan, dan ekspor laporan ringkas.
-              </p>
-              <div class="project-actions">
-                <a href="#proyek" class="project-link" onclick="showToast('Visualisasi data siap diakses! 📊')">
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-                  <span>Live Demo</span>
-                </a>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                  <span>Kode GitHub</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ==========================================================================
-         Pengalaman & Pendidikan (Timeline Section)
-         ========================================================================== -->
-    <section class="section" id="pengalaman" style="background: var(--bg-secondary);">
-      <div class="container">
-        <div class="section-header">
-          <span class="badge">Perjalanan Karier & Edukasi</span>
-          <h2 class="section-title">Riwayat Pengalaman & Pendidikan</h2>
-          <p class="section-desc">Latar belakang pendidikan, kursus tersertifikasi, dan pengalaman organisasi/kerja yang telah saya lalui.</p>
-        </div>
-
-        <div class="timeline-grid">
-          <!-- Kolom Pendidikan -->
-          <div>
-            <h3 class="timeline-column-title">
-              <span>🎓</span> Pendidikan & Sertifikasi
+        <div class="skills-container">
+          <!-- Hard Skills -->
+          <div class="skills-box">
+            <h3 class="skills-box-title">
+              <span>⚙️</span> Hard Skills & Rekayasa
             </h3>
-            <div class="timeline-wrapper">
-              <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2022 - Sekarang</div>
-                <h4 class="timeline-title">Pendidikan Strata 1 (S1)</h4>
-                <div class="timeline-subtitle">Universitas / Perguruan Tinggi</div>
-                <p class="timeline-desc">
-                  Mempelajari dasar ilmu komputer, struktur data, pemrograman web, rekayasa perangkat lunak, serta manajemen basis data dengan predikat memuaskan.
-                </p>
-              </div>
-
-              <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2024</div>
-                <h4 class="timeline-title">Sertifikasi Frontend Web Development</h4>
-                <div class="timeline-subtitle">Dicoding Academy / Coursera</div>
-                <p class="timeline-desc">
-                  Menyelesaikan modul fundamental web, penguasaan JavaScript modern, manipulasi DOM, konsumsi REST API, dan penerapan responsive web design.
-                </p>
-              </div>
-
-              <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2023</div>
-                <h4 class="timeline-title">Pelatihan UI/UX Design & Prototyping</h4>
-                <div class="timeline-subtitle">Google Career Certificate / Kampus</div>
-                <p class="timeline-desc">
-                  Mendalami riset pengguna (user research), pembuatan wireframe, design system, interactive prototyping pada Figma, dan usability testing.
-                </p>
-              </div>
+            <div class="skill-tags">
+              <span class="skill-pill">Pengolahan Air Bersih (IPA)</span>
+              <span class="skill-pill">Pengolahan Air Limbah (IPAL)</span>
+              <span class="skill-pill">Process Design & Piping</span>
+              <span class="skill-pill">Document Control & BAST</span>
+              <span class="skill-pill">JSA & HIRAC</span>
+              <span class="skill-pill">HSE Audit & CSMS</span>
+              <span class="skill-pill">Permit to Work (PTW)</span>
+              <span class="skill-pill">ESG & Sustainability</span>
+              <span class="skill-pill">Analisis Laboratorium</span>
+              <span class="skill-pill">Kepatuhan Lingkungan (ISO)</span>
             </div>
           </div>
 
-          <!-- Kolom Pengalaman -->
-          <div>
-            <h3 class="timeline-column-title">
-              <span>💼</span> Pengalaman & Proyek
+          <!-- Software & Soft Skills -->
+          <div class="skills-box">
+            <h3 class="skills-box-title">
+              <span>💻</span> Software, Bahasa & Soft Skills
             </h3>
-            <div class="timeline-wrapper">
-              <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2025 - Sekarang</div>
-                <h4 class="timeline-title">Freelance Web Developer</h4>
-                <div class="timeline-subtitle">Proyek Mandiri & Klien</div>
-                <p class="timeline-desc">
-                  Membangun website portofolio, landing page UMKM, serta optimasi kecepatan situs web dengan performa tinggi dan kompatibilitas mobile penuh.
-                </p>
-              </div>
-
-              <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2024</div>
-                <h4 class="timeline-title">Staf Divisi Teknologi Informasi</h4>
-                <div class="timeline-subtitle">Organisasi Kemahasiswaan</div>
-                <p class="timeline-desc">
-                  Mengelola publikasi digital organisasi, memelihara website acara kampus, dan berkolaborasi dalam tim publikasi serta dokumentasi.
-                </p>
-              </div>
-
-              <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2023 - 2024</div>
-                <h4 class="timeline-title">Kolaborator Open Source & Tim Proyek</h4>
-                <div class="timeline-subtitle">GitHub Community</div>
-                <p class="timeline-desc">
-                  Berpartisipasi aktif dalam pengembangan proyek open-source, mengelola repository dengan Git, dan melakukan code review bersama rekan sejawat.
-                </p>
-              </div>
+            <div class="skill-tags">
+              <span class="skill-pill">AutoCAD</span>
+              <span class="skill-pill">ArcGIS</span>
+              <span class="skill-pill">EPANET (Hidrolika Air)</span>
+              <span class="skill-pill">Microsoft Office (Excel/Word/PPT)</span>
+              <span class="skill-pill">Canva</span>
+              <span class="skill-pill">Leadership & Teamwork</span>
+              <span class="skill-pill">Public Speaking & Komunikasi</span>
+              <span class="skill-pill">Time Management & Adaptabilitas</span>
+              <span class="skill-pill">Bahasa Indonesia (Native)</span>
+              <span class="skill-pill">English (Kerja Profesional)</span>
             </div>
           </div>
         </div>
@@ -623,77 +500,88 @@
     <section class="section" id="kontak">
       <div class="container">
         <div class="section-header">
-          <span class="badge">Mari Terhubung</span>
-          <h2 class="section-title">Hubungi Saya</h2>
-          <p class="section-desc">Punya pertanyaan, tawaran proyek, peluang magang, atau ingin berdiskusi? Jangan ragu untuk mengirimkan pesan!</p>
+          <span class="badge">Hubungi Saya</span>
+          <h2 class="section-title">Informasi Kontak Langsung</h2>
+          <p class="section-desc">Tersedia untuk peluang kerja penuh waktu, konsultan proyek, maupun diskusi profesional terkait rekayasa lingkungan dan K3.</p>
         </div>
 
         <div class="contact-grid">
-          <!-- Detail Kontak Langsung -->
-          <div class="contact-info">
-            <div class="contact-card">
-              <div class="contact-icon-box">📧</div>
-              <div>
-                <div class="contact-label">Email Pribadi</div>
-                <div class="contact-value">annisafadilahazhar@gmail.com</div>
+          <!-- Direct Details -->
+          <div class="contact-card-simple">
+            <div>
+              <div class="contact-direct-item">
+                <div class="contact-icon-bubble">💬</div>
+                <div>
+                  <div class="contact-label">WhatsApp Langsung</div>
+                  <div class="contact-val">0812-7516-0019</div>
+                </div>
+              </div>
+
+              <div class="contact-direct-item">
+                <div class="contact-icon-bubble">✉️</div>
+                <div>
+                  <div class="contact-label">Alamat Email</div>
+                  <div class="contact-val">azhar.annisafad@gmail.com</div>
+                </div>
+              </div>
+
+              <div class="contact-direct-item">
+                <div class="contact-icon-bubble">📍</div>
+                <div>
+                  <div class="contact-label">Lokasi Domisili</div>
+                  <div class="contact-val">Jakarta Timur, DKI Jakarta</div>
+                </div>
+              </div>
+
+              <div class="contact-direct-item">
+                <div class="contact-icon-bubble">🔗</div>
+                <div>
+                  <div class="contact-label">Profil LinkedIn</div>
+                  <div class="contact-val">linkedin.com/in/annisafadilahazhar</div>
+                </div>
               </div>
             </div>
 
-            <div class="contact-card" style="cursor: pointer;" id="copy-email-btn" title="Klik untuk salin email">
-              <div class="contact-icon-box">📋</div>
-              <div>
-                <div class="contact-label">Salin Cepat</div>
-                <div class="contact-value" style="color: var(--accent-primary);">Klik di sini untuk menyalin email</div>
-              </div>
-            </div>
-
-            <div class="contact-card">
-              <div class="contact-icon-box">📍</div>
-              <div>
-                <div class="contact-label">Lokasi Domisili</div>
-                <div class="contact-value">Indonesia 🇮🇩 (Tersedia Remote)</div>
-              </div>
-            </div>
-
-            <div class="contact-card">
-              <div class="contact-icon-box">💬</div>
-              <div>
-                <div class="contact-label">Status Ketersediaan</div>
-                <div class="contact-value" style="color: var(--accent-emerald);">Menerima Proyek & Kerjasama</div>
-              </div>
+            <div style="display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap;">
+              <a href="https://wa.me/6281275160019?text=Halo%20Annisa%2C%20saya%20melihat%20portofolio%20Anda" target="_blank" rel="noopener noreferrer" class="btn btn-success btn-sm">
+                <span>Chat via WhatsApp</span>
+              </a>
+              <a href="mailto:azhar.annisafad@gmail.com" class="btn btn-primary btn-sm">
+                <span>Kirim Email Langsung</span>
+              </a>
             </div>
           </div>
 
-          <!-- Formulir Kontak Langsung (Mailto & Interactive Feedback) -->
-          <form class="contact-form" id="contact-form">
-            <div class="form-group">
-              <label for="name" class="form-label">Nama Lengkap *</label>
-              <input type="text" id="name" class="form-input" placeholder="Masukkan nama Anda..." required>
+          <!-- Quick Action Card -->
+          <div class="contact-card-simple" style="background: var(--grad-subtle); border-color: rgba(13, 148, 136, 0.3);">
+            <div>
+              <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 8px; color: var(--text-primary);">
+                Unduh Berkas Lengkap
+              </h3>
+              <p style="color: var(--text-secondary); font-size: 0.925rem; line-height: 1.6; margin-bottom: 20px;">
+                Anda dapat langsung mengunduh Curriculum Vitae (CV) format PDF resmi atau memeriksa keabsahan seluruh sertifikasi K3 & ISO pada tautan penyimpanan Google Drive.
+              </p>
             </div>
 
-            <div class="form-group">
-              <label for="email" class="form-label">Alamat Email *</label>
-              <input type="email" id="email" class="form-input" placeholder="contoh@domain.com" required>
-            </div>
+            <div style="display: flex; flex-direction: column; gap: 10px;">
+              <a href="assets/CV-Annisa-Fadilah-Azhar.pdf" download="CV-Annisa-Fadilah-Azhar.pdf" class="btn btn-primary" style="width: 100%;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                <span>Unduh CV Lengkap (PDF)</span>
+              </a>
 
-            <div class="form-group">
-              <label for="subject" class="form-label">Subjek / Keperluan</label>
-              <input type="text" id="subject" class="form-input" placeholder="Tawaran Proyek, Diskusi, dll...">
+              <a href="https://bit.ly/3VqszsC" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg>
+                <span>Buka Berkas Sertifikat (Google Drive)</span>
+              </a>
             </div>
-
-            <div class="form-group">
-              <label for="message" class="form-label">Pesan Anda *</label>
-              <textarea id="message" class="form-textarea" placeholder="Tuliskan pesan atau detail yang ingin Anda sampaikan..." required></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-primary" style="width: 100%;" id="submit-contact-btn">
-              <span>Kirim Pesan Sekarang</span>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <line x1="22" y1="2" x2="11" y2="13"></line>
-                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-              </svg>
-            </button>
-          </form>
+          </div>
         </div>
       </div>
     </section>
@@ -703,36 +591,21 @@
        Footer
        ========================================================================== -->
   <footer class="footer">
-    <div class="container footer-content">
-      <a href="#beranda" class="logo">
-        <img src="assets/favicon.svg" alt="Annisa Logo" style="width: 30px; height: 30px;">
-        <span>Annisa Fadilah Azhar</span>
-      </a>
-
+    <div class="container">
+      <div style="font-weight: 700; font-size: 1.05rem; margin-bottom: 4px;">
+        Annisa Fadilah Azhar, S.T.
+      </div>
       <p class="footer-text">
-        &copy; 2026 Annisa Fadilah Azhar. Dirancang ringan & siap hosting gratis di <span class="footer-highlight">Vercel</span> ⚡
+        &copy; 2026 Annisa Fadilah Azhar &bull; Sarjana Teknik Lingkungan &bull; Jakarta Timur, Indonesia
       </p>
-
-      <div class="social-links" style="margin-top: 6px;">
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn" style="width: 36px; height: 36px;" aria-label="GitHub">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-        </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" style="width: 36px; height: 36px;" aria-label="LinkedIn">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-        </a>
-        <a href="mailto:annisafadilahazhar@gmail.com" class="social-btn" style="width: 36px; height: 36px;" aria-label="Email">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-        </a>
+      <div class="footer-links">
+        <a href="https://wa.me/6281275160019" target="_blank" rel="noopener noreferrer" class="footer-link">WhatsApp</a>
+        <a href="mailto:azhar.annisafad@gmail.com" class="footer-link">Email</a>
+        <a href="https://linkedin.com/in/annisafadilahazhar" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+        <a href="assets/CV-Annisa-Fadilah-Azhar.pdf" download class="footer-link">Unduh CV</a>
       </div>
     </div>
   </footer>
-
-  <!-- Floating Back to Top Button -->
-  <button class="back-to-top" id="back-to-top" aria-label="Kembali ke atas">
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-      <polyline points="18 15 12 9 6 15"></polyline>
-    </svg>
-  </button>
 
   <!-- Script -->
   <script src="js/main.js"></script>
